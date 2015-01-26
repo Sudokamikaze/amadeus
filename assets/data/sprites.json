@@ -1,0 +1,93 @@
+{
+	"happy" : 
+		[
+			"MA01a.png",
+			"MA01b.png",
+			"MA01c.png",
+			"MA02a.png",
+			"MA02b.png",
+			"MA02c.png",
+			"MA06a.png",
+			"MA06b.png",
+			"MA06c.png",
+			"MB01a.png",
+			"MB01b.png",
+			"MB01c.png",
+			"MB02a.png",
+			"MB02b.png",
+			"MB02c.png",
+			"MB08a.png",
+			"MB08b.png",
+			"MB08c.png",
+			"MB01a.png",
+			"MB01b.png",
+			"MB01c.png",
+			"MC03a.png",
+			"MC03b.png",
+			"MC03c.png"
+		],
+	"angry" :
+		[
+			"MA03a.png",
+			"MA03b.png",
+			"MA03c.png",
+			"MA07a.png",
+			"MA07b.png",
+			"MA07c.png",
+			"MA08a.png",
+			"MA08b.png",
+			"MA08c.png",
+			"MB03a.png",
+			"MB03b.png",
+			"MB03c.png",
+			"MB04a.png",
+			"MB04b.png",
+			"MB04c.png",
+			"MB05a.png",
+			"MB05b.png",
+			"MB05c.png"
+		],
+	"disappointed" :
+		[
+			"MA04a.png",
+			"MA04b.png",
+			"MA04c.png",
+			"MA05a.png",
+			"MA05b.png",
+			"MA05c.png",
+			"MB06a.png",
+			"MB06b.png",
+			"MB06c.png",
+			"MB07a.png",
+			"MB07b.png",
+			"MB07c.png"
+		],
+	"shy" :
+		[
+			"MA09a.png",
+			"MA09b.png",
+			"MA09c.png",
+			"MB09a.png",
+			"MB09b.png",
+			"MB09c.png",
+			"MC02a.png",
+			"MC02b.png",
+			"MC02c.png"
+		],
+	"surprised" :
+		[
+			"MC04a.png",
+			"MC04b.png",
+			"MC04c.png"
+		],
+	"worried" : 
+		[
+			"MC05a.png",
+			"MC05b.png",
+			"MC05c.png",
+			"MC06a.png",
+			"MC06b.png",
+			"MC06c.png"
+		]
+
+}
