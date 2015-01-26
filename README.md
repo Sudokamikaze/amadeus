@@ -1,5 +1,5 @@
 # Amadeus
-A local personal homepage in form of a Makise Kurisu waifu simulator. (Not actually uploaded yet, but will be soon)
+A local personal homepage in form of a Makise Kurisu waifu simulator.
 
 Following feautures are currently present:
 * Makise Kurisu game sprites.
@@ -11,6 +11,7 @@ Following feautures are currently present:
 * Responsive, with bootstrap.
 
 Planned features:
+* Smooth sprite transition in Firefox (currently only works with Chrom* browsers)
 * Database integration (right now everything works with JSON).
 * Simple dialogue mode, so you can talk to her like in a VN.
 * Support for expansion of the AI.
