@@ -15,4 +15,6 @@ Planned features:
 * Simple dialogue mode, so you can talk to her like in a VN.
 * Support for expansion of the AI.
 
+Screenshot: http://a.pomf.se/wtwbes.png
+
 The copyright of the sprites belongs to the creaters of Steins;Gate: Nitroplus, 5pb and Mages. Drawn by huke.
