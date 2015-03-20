@@ -92,7 +92,9 @@ $(function () {
 					$("#country").html("不明");
 					$(".api").css("color", "green");
 					if(!first) {spriteUpdate("happy");}			
-				} else if(response.country == "Austria") { 
+					// Enter your country here, to be warned we you browse from there!
+					// This is for poeple using a VPN or Tor.
+				} else if(response.country == "USA") { 
 					safe = data.bad;
 					$("#country").html(response.country);
 					$(".api").css("color", "red");
