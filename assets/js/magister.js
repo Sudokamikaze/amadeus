@@ -1,4 +1,11 @@
 $(function () {
+	$.ajaxSetup({beforeSend: function(xhr){
+		if (xhr.overrideMimeType)
+		{
+			xhr.overrideMimeType("application/json");
+		}
+	}
+	}); //Changes JSON MIME-type to text/JSON instead of text/plain
 	
 	var dim = false;
 
