@@ -12,9 +12,7 @@ Following feautures are currently present:
 
 Planned features:
 * Smooth sprite transition in Firefox (currently only works with Chrom* browsers)
-* Database integration (right now everything works with JSON).
-* Simple dialogue mode, so you can talk to her like in a VN.
-* Support for expansion of the AI.
+* (Optional) Database integration (right now everything works with JSON).
 
 Screenshot: http://a.pomf.se/wtwbes.png
 
