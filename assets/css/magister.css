@@ -140,7 +140,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .title,
 .subtitle {
 	font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
+	font-weight:300;
 	font-size:7em;
 	margin-bottom:15px;
 	line-height:1em;
