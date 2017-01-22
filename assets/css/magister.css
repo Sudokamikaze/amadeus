@@ -138,14 +138,14 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 
 .title,
 .subtitle {
-	font-family: 'Wire One', Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:normal;
 	font-size:7em;
 	margin-bottom:15px;
 	line-height:1em;
 }
 .title + .visible-xs {
-	font-family: 'Wire One', Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:normal;
 	font-size:5em;
 	margin-bottom:15px;
