@@ -9,11 +9,6 @@ Following feautures are currently present:
 * She wears her lab coat only at work hours (currently hard coded).
 * Security panel. Notifies you when you browse with an IP from your country. This is for users of VPNs and Tor. Also Kurisu gets worried and warns you personally.
 * Responsive, with bootstrap.
-
-Planned features:
-* Smooth sprite transition in Firefox (currently only works with Chrom* browsers)
-* (Optional) Database integration (right now everything works with JSON).
-
-Screenshot: http://a.pomf.se/wtwbes.png
+* Translated to Russian(By @sudokamikaze)
 
 The copyright of the sprites belongs to the creaters of Steins;Gate: Nitroplus, 5pb and Mages. Drawn by huke.
