@@ -1,8 +1,8 @@
 html {
-	background-image: url(../images/pattern2.png);
+	background-image: url(../images/sample.jpg);
 	background-repeat: repeat;
 
-/*	background:#505D6E url(../images/body3.png) no-repeat center center fixed; 
+/*	background:#505D6E url(../images/body3.png) no-repeat center center fixed;
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -13,14 +13,14 @@ html {
 
 body {
 	background:transparent;
-	min-height:100%; 	
+	min-height:100%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.5em;
 	font-size:14px;
 	font-family: Helvetica, Arial, sans-serif;
 	color:#fff;
-	color:rgba(255,255,255,.8); 
+	color:rgba(255,255,255,.8);
 	font-weight: normal;
 }
 
@@ -106,23 +106,23 @@ div {
 /********************************************************/
 /*             Sections - universal classes             */
 /********************************************************/
-.section { 
+.section {
 	z-index: 1;
 	min-height:420px;
-	width: 100%; 
+	width: 100%;
 	overflow:auto;
 	height:100%;
 	padding-top:50px;
-	padding-bottom:0px; 
+	padding-bottom:0px;
 	display:none;
 	top:0;
-} 
+}
 @media (min-width: 768px) {
 	.section { padding-top:5vh;}
 }
 
 /* Show one of sections */
-#head { 
+#head {
 	display: block;
 }
 
@@ -132,35 +132,35 @@ div {
 
 a { color:#fff; text-decoration: none; }
 a:hover, a:active { color:#fff; text-decoration: underline; }
-.lead { 
+.lead {
 	font-weight:normal;
 	font-size:1.5em;
 	line-height:1.2em;
 }
 
 .title,
-.subtitle { 
+.subtitle {
 	font-family: 'Wire One', Helvetica, Arial, sans-serif;
 	font-weight:normal;
 	font-size:7em;
-	margin-bottom:15px; 
+	margin-bottom:15px;
 	line-height:1em;
 }
 .title + .visible-xs {
 	font-family: 'Wire One', Helvetica, Arial, sans-serif;
 	font-weight:normal;
 	font-size:5em;
-	margin-bottom:15px; 
+	margin-bottom:15px;
 	line-height:1em;
 }
 
-.subtitle { 
+.subtitle {
 	line-height:.9em;
 	font-size:5.5em;
 	margin-top:0;
-	margin-bottom:30px; 
+	margin-bottom:30px;
 }
-.tagline { 
+.tagline {
 	font-size:1.4em;
 	line-height:1.3em;
 	font-weight:normal;
@@ -168,7 +168,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 }
 
 @media (max-width: 767px) {
-	.lead { 
+	.lead {
 		font-size:1.3em;
 	}
 }
@@ -193,7 +193,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .btn:hover {
 	color:#000;
 }
-.btn-lg { 
+.btn-lg {
 	padding:16px 30px;
 	font-size:inherit;
 }
@@ -240,21 +240,21 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /*                 Everything else                      */
 /********************************************************/
 
-.list-social .btn { 
-	font-size:1.3em; 
+.list-social .btn {
+	font-size:1.3em;
 }
-.list-social .btn:hover, .list-social .btn:active, .list-social .btn:focus { 
-	text-decoration: none; 
+.list-social .btn:hover, .list-social .btn:active, .list-social .btn:focus {
+	text-decoration: none;
 }
 
 
 /* Social buttons in the footer */
-#social { 
+#social {
 	margin-top:50px;
 	margin-bottom:50px;
 }
-#social .wrapper { 
-	width:340px; 
+#social .wrapper {
+	width:340px;
 	margin:0 auto;
 }
 
@@ -290,18 +290,18 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /***********************************************************/
 /*                   Theme: text shadows                   */
 /***********************************************************/
-.text-shadows { 	
+.text-shadows {
 	text-shadow:0 1px 2px rgba(0,0,0,.2);
 }
 .text-shadows .title,
 .text-shadows .subtitle,
-.text-shadows .tagline { 
+.text-shadows .tagline {
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
 }
-.text-shadows .mainmenu .dropdown-menu a { 
+.text-shadows .mainmenu .dropdown-menu a {
 	text-shadow:0 2px 1px rgba(0,0,0,.2);
 }
-.text-shadows .mainmenu .dropdown-menu a:hover { 
+.text-shadows .mainmenu .dropdown-menu a:hover {
 	text-shadow:none;
 }
 
@@ -310,11 +310,11 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /***********************************************************/
 /*                   Inverted theme                        */
 /***********************************************************/
-.theme-invert { 	
+.theme-invert {
 	color:#222;
-	color:rgba(0,0,0,.8); 
+	color:rgba(0,0,0,.8);
  }
-.theme-invert a { 
+.theme-invert a {
 	color:#000;
 }
 .theme-invert .btn {
@@ -335,18 +335,18 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .theme-invert .navbar-toggle .icon-bar {
   background: #333;
 }
-.theme-invert .mainmenu .dropdown-menu a { 
+.theme-invert .mainmenu .dropdown-menu a {
 	color:#000;
 }
-.theme-invert .mainmenu .dropdown-menu a:hover { 
+.theme-invert .mainmenu .dropdown-menu a:hover {
 	background:rgba(0,0,0,.1);
 	color:#000;
 }
 
 .theme-invert .title,
 .theme-invert .subtitle,
-.theme-invert .tagline { 
-	color:#F0F8FF; 
+.theme-invert .tagline {
+	color:#F0F8FF;
 }
 
 .theme-invert .btn-default {
@@ -376,6 +376,3 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .thumbnail .caption {
 	color: inherit;
 }
-
-
-
