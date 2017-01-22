@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 html {
 	background-image: url(../images/sample.png);
 	background-repeat: repeat;
@@ -27,10 +28,7 @@ body {
 /* Everything local */
 
 @font-face {
-  font-family: 'Wire One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Wire One'), local('WireOne'), url(../fonts/WireOne.woff) format('woff');
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Kurisutiiina */
