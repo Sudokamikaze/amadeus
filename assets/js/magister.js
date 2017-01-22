@@ -6,7 +6,7 @@ $(function () {
 		}
 	}
 	}); //Changes JSON MIME-type to text/JSON instead of text/plain
-	
+
 	var dim = false;
 
 	var work = false;
@@ -82,13 +82,13 @@ $(function () {
 			}
 
 			$("#christina").css("background-image", "url(" + pre + sprites[getRandomInt(0, sprites.length-1)] + ")");
-		});	
+		});
 	}
 
 	var getIP = function(first) {
 
-		$("#country").html("まだ不明");
-		$("#ip").html("まだ不明");
+		$("#country").html("Неизвестный");
+		$("#ip").html("Неизвестный");
 
 		$.getJSON("http://ip-api.com/json", function(response){
 
@@ -98,10 +98,10 @@ $(function () {
 					safe = data.good;
 					$("#country").html("不明");
 					$(".api").css("color", "green");
-					if(!first) {spriteUpdate("happy");}			
+					if(!first) {spriteUpdate("happy");}
 					// Enter your country here, to be warned we you browse from there!
 					// This is for poeple using a VPN or Tor.
-				} else if(response.country == "USA") { 
+				} else if(response.country == "USA") {
 					safe = data.bad;
 					$("#country").html(response.country);
 					$(".api").css("color", "red");
@@ -117,7 +117,7 @@ $(function () {
 			});
 
 			$("#ip").html(response.query);
-		});	
+		});
 	}
 
 	$("#btnCheckIp").click(function() {
@@ -149,22 +149,22 @@ $(function () {
 			spriteUpdate("disappointed");
 		} else {
 			spriteUpdate("happy");
-		}	
+		}
 	}
 
 	$("#christina").click(function() {
 
 		if($("#links").hasClass("disabled")) {
-				
-			$("#conversation").toggleClass("kakureta");				
 
-			setTimeout(function() {			
+			$("#conversation").toggleClass("kakureta");
+
+			setTimeout(function() {
 				$("#conversation").toggleClass("disabled");
 				$("#links").toggleClass("disabled");
 				setTimeout(function() {
 					$("#links").toggleClass("kakureta");
 				}, 500);
-																
+
 			}, 500);
 		} else {
 			$("#links").toggleClass("kakureta");
@@ -172,18 +172,18 @@ $(function () {
 				$("#links").toggleClass("disabled");
 				$("#conversation").toggleClass("disabled");
 				setTimeout(function() {
-					$("#conversation").toggleClass("kakureta");	
-				}, 500);	
+					$("#conversation").toggleClass("kakureta");
+				}, 500);
 			}, 500);
 		}
 
 
 
-		
+
 
 	});
 
 	greet();
 	getIP(true);
-	
+
 });
